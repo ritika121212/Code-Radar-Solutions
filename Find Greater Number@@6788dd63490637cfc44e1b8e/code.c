@@ -3,8 +3,8 @@
 int a,b;
 scanf("%d %d" ,&a,&b);
 if(a>b) 
-printf("%d",&a);
+printf("%d\n",&a);
 else 
-printf("%d",&b);
+printf("%d\n",&b);
     return 0;
 }
