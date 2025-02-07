@@ -7,3 +7,4 @@ print("Prime");
 else
 printf("Not Prime");
 return 0;
+}
