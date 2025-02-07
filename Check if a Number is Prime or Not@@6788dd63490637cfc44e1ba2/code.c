@@ -2,9 +2,8 @@
 int main() {
 int a;
 scanf("%d",&a);
-if()
+if((a>1)&&(a%1==0)&&(a%a==0))
 print("Prime");
 else
 printf("Not Prime");
     return 0;
-}
