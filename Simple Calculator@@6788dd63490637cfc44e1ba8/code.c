@@ -5,11 +5,11 @@ char c;
 scanf("%d %d %c",&a,&b,&c);
 if(c == '+')
 printf(a+b);
-else if( c== '_')
-printf("a_b");
+else if( c== '-')
+printf("a-b");
 else if(c == '*')
 printf("a*b");
-else if(c == '/'&& b!=0)
+else if(c == '/'&& b==0)
 printf("a/b");
 else
 printf("error");
