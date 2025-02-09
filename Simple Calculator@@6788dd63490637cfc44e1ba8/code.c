@@ -13,6 +13,5 @@ else if(c == '/'&& b!=0)
 printf("a/b");
 else
 printf("error");
-
-    return 0;
+return 0;
 }
