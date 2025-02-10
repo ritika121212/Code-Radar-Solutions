@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() {
 int a;
+scanf("%d",&a);
 if(a=='A')
 printf("Excellent");
 else if(a=='B')
@@ -11,7 +12,8 @@ else if(a=='D')
 printf("Below Average");
 else if(a=='F')
 printf("Fail");
-elseprintf("Invalid");    
+else
+printf("Invalid");    
 
 return 0;
 }
