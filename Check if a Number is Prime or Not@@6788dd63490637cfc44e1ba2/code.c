@@ -4,7 +4,7 @@ int n;
 int flag=1;
 scanf("%d",&n);
 for(int i=2;i<n;i++){
-    if(n%i==o){
+    if(n%i == o){
         flag=0;
     }
 }
